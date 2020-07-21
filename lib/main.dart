@@ -56,7 +56,7 @@ class _CalculatorState extends State<Calculator> {
       result = (number1 / number2).toString();
     }
     if (mathOperator == '%') {
-      result = (number1 / number2).toString();
+      result = (number1 % number2).toString();
     }
     return result;
   }
